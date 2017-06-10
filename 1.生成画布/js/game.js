@@ -20,7 +20,7 @@ var class_game = {
 				_div.setAttribute("id",_y*this._column+_x);
 				_div.setAttribute("style","width:"+this._box_width+"px;height:"+this._box_height+"px;top:"+(this._box_height*_y)+"px;left:"+(this._box_width*_x)+"px;"); 
 				//console.log(_div);
-				//_div.innerHTML = _y*this._column+_x+"["+_x+","+_y+"]";
+				_div.innerHTML = _y*this._column+_x+"["+_x+","+_y+"]";
 				class_base._get('game_panel').appendChild(_div);
 			}
 		}
